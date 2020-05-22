@@ -7,23 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7460A14B240D102D00E15C45 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7460A14A240D102D00E15C45 /* WelcomeViewController.swift */; };
+		7460A14D240D995800E15C45 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7460A14C240D995800E15C45 /* CustomTabBarController.swift */; };
+		7460A14F240FBE4900E15C45 /* StateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7460A14E240FBE4900E15C45 /* StateCell.swift */; };
+		7460A151240FBE8300E15C45 /* PlaceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7460A150240FBE8300E15C45 /* PlaceCell.swift */; };
+		7460A15A240FC1FA00E15C45 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7460A159240FC1FA00E15C45 /* Place.swift */; };
+		7460A15C240FC3F600E15C45 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7460A15B240FC3F600E15C45 /* State.swift */; };
+		7460A15E240FC4E200E15C45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7460A15D240FC4E200E15C45 /* Main.storyboard */; };
+		7460A160240FC6D300E15C45 /* HardCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7460A15F240FC6D300E15C45 /* HardCode.swift */; };
+		7460A17024119F1C00E15C45 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7460A16F24119F1C00E15C45 /* DetailViewController.swift */; };
+		7460A1722411A85200E15C45 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7460A1712411A85200E15C45 /* NewsViewController.swift */; };
+		7460A1742411A8C600E15C45 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7460A1732411A8C600E15C45 /* NewsCell.swift */; };
+		7460A17824130C1100E15C45 /* PlaceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7460A17724130C1100E15C45 /* PlaceDetailViewController.swift */; };
+		746AE3F1242A0E170041AF06 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AE3F0242A0E170041AF06 /* News.swift */; };
 		7489FD3923D85146002C84A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7489FD3823D85146002C84A0 /* AppDelegate.swift */; };
 		7489FD3B23D85146002C84A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7489FD3A23D85146002C84A0 /* SceneDelegate.swift */; };
-		7489FD3D23D85146002C84A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7489FD3C23D85146002C84A0 /* ViewController.swift */; };
-		7489FD4023D85146002C84A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7489FD3E23D85146002C84A0 /* Main.storyboard */; };
+		7489FD3D23D85146002C84A0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7489FD3C23D85146002C84A0 /* HomeViewController.swift */; };
 		7489FD4223D85147002C84A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7489FD4123D85147002C84A0 /* Assets.xcassets */; };
 		7489FD4523D85147002C84A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7489FD4323D85147002C84A0 /* LaunchScreen.storyboard */; };
+		74B6578F2414ECFE0026585A /* PhotoLibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B6578E2414ECFE0026585A /* PhotoLibraryViewController.swift */; };
+		74B657912414EFF10026585A /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B657902414EFF10026585A /* PhotoCell.swift */; };
+		74B657BA241655660026585A /* ImagePopOverController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B657B9241655660026585A /* ImagePopOverController.swift */; };
+		74B657E0241B758D0026585A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B657DF241B758D0026585A /* SettingsViewController.swift */; };
+		74B657E2241B7C3E0026585A /* SettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B657E1241B7C3E0026585A /* SettingsCell.swift */; };
+		A28F0B5A918A0C79C9B85F29 /* libPods-Eco-Tourism.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A8311891E08FD087DDD4DF30 /* libPods-Eco-Tourism.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7460A14A240D102D00E15C45 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		7460A14C240D995800E15C45 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		7460A14E240FBE4900E15C45 /* StateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateCell.swift; sourceTree = "<group>"; };
+		7460A150240FBE8300E15C45 /* PlaceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceCell.swift; sourceTree = "<group>"; };
+		7460A159240FC1FA00E15C45 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		7460A15B240FC3F600E15C45 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		7460A15D240FC4E200E15C45 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7460A15F240FC6D300E15C45 /* HardCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HardCode.swift; sourceTree = "<group>"; };
+		7460A16F24119F1C00E15C45 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		7460A1712411A85200E15C45 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		7460A1732411A8C600E15C45 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		7460A17724130C1100E15C45 /* PlaceDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailViewController.swift; sourceTree = "<group>"; };
+		746AE3F0242A0E170041AF06 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
 		7489FD3523D85146002C84A0 /* Eco-Tourism.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eco-Tourism.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7489FD3823D85146002C84A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7489FD3A23D85146002C84A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7489FD3C23D85146002C84A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7489FD3F23D85146002C84A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7489FD3C23D85146002C84A0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		7489FD4123D85147002C84A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7489FD4423D85147002C84A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7489FD4623D85147002C84A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74B6578E2414ECFE0026585A /* PhotoLibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLibraryViewController.swift; sourceTree = "<group>"; };
+		74B657902414EFF10026585A /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		74B657B9241655660026585A /* ImagePopOverController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePopOverController.swift; sourceTree = "<group>"; };
+		74B657DF241B758D0026585A /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		74B657E1241B7C3E0026585A /* SettingsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCell.swift; sourceTree = "<group>"; };
+		A8311891E08FD087DDD4DF30 /* libPods-Eco-Tourism.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Eco-Tourism.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD0A64C488C698C1715F36FC /* Pods-Eco-Tourism.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eco-Tourism.debug.xcconfig"; path = "Target Support Files/Pods-Eco-Tourism/Pods-Eco-Tourism.debug.xcconfig"; sourceTree = "<group>"; };
+		D1B4404BDB1C7A5B29967061 /* Pods-Eco-Tourism.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eco-Tourism.release.xcconfig"; path = "Target Support Files/Pods-Eco-Tourism/Pods-Eco-Tourism.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +69,86 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A28F0B5A918A0C79C9B85F29 /* libPods-Eco-Tourism.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C2438EDA8004EEDFDA5C0C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8311891E08FD087DDD4DF30 /* libPods-Eco-Tourism.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7460A154240FC15F00E15C45 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7460A15B240FC3F600E15C45 /* State.swift */,
+				7460A159240FC1FA00E15C45 /* Place.swift */,
+				746AE3F0242A0E170041AF06 /* News.swift */,
+				7460A15F240FC6D300E15C45 /* HardCode.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7460A157240FC19000E15C45 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7460A14A240D102D00E15C45 /* WelcomeViewController.swift */,
+				7460A16F24119F1C00E15C45 /* DetailViewController.swift */,
+				7460A17724130C1100E15C45 /* PlaceDetailViewController.swift */,
+				74B6578E2414ECFE0026585A /* PhotoLibraryViewController.swift */,
+				74B657B9241655660026585A /* ImagePopOverController.swift */,
+				7460A16E24119E1A00E15C45 /* Tab Bar Controller */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7460A158240FC1AE00E15C45 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				7489FD3823D85146002C84A0 /* AppDelegate.swift */,
+				7489FD3A23D85146002C84A0 /* SceneDelegate.swift */,
+				7460A15D240FC4E200E15C45 /* Main.storyboard */,
+				7489FD4323D85147002C84A0 /* LaunchScreen.storyboard */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		7460A1612410FA7500E15C45 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7460A14E240FBE4900E15C45 /* StateCell.swift */,
+				7460A150240FBE8300E15C45 /* PlaceCell.swift */,
+				7460A1732411A8C600E15C45 /* NewsCell.swift */,
+				74B657902414EFF10026585A /* PhotoCell.swift */,
+				74B657E1241B7C3E0026585A /* SettingsCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7460A16E24119E1A00E15C45 /* Tab Bar Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7460A14C240D995800E15C45 /* CustomTabBarController.swift */,
+				7489FD3C23D85146002C84A0 /* HomeViewController.swift */,
+				7460A1712411A85200E15C45 /* NewsViewController.swift */,
+				74B657DF241B758D0026585A /* SettingsViewController.swift */,
+			);
+			path = "Tab Bar Controller";
+			sourceTree = "<group>";
+		};
 		7489FD2C23D85146002C84A0 = {
 			isa = PBXGroup;
 			children = (
 				7489FD3723D85146002C84A0 /* Eco-Tourism */,
 				7489FD3623D85146002C84A0 /* Products */,
+				B3341BB2605833A8B3480FDF /* Pods */,
+				1C2438EDA8004EEDFDA5C0C0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +163,23 @@
 		7489FD3723D85146002C84A0 /* Eco-Tourism */ = {
 			isa = PBXGroup;
 			children = (
-				7489FD3823D85146002C84A0 /* AppDelegate.swift */,
-				7489FD3A23D85146002C84A0 /* SceneDelegate.swift */,
-				7489FD3C23D85146002C84A0 /* ViewController.swift */,
-				7489FD3E23D85146002C84A0 /* Main.storyboard */,
+				7460A158240FC1AE00E15C45 /* Helper */,
+				7460A154240FC15F00E15C45 /* Model */,
+				7460A1612410FA7500E15C45 /* View */,
+				7460A157240FC19000E15C45 /* Controller */,
 				7489FD4123D85147002C84A0 /* Assets.xcassets */,
-				7489FD4323D85147002C84A0 /* LaunchScreen.storyboard */,
 				7489FD4623D85147002C84A0 /* Info.plist */,
 			);
 			path = "Eco-Tourism";
+			sourceTree = "<group>";
+		};
+		B3341BB2605833A8B3480FDF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD0A64C488C698C1715F36FC /* Pods-Eco-Tourism.debug.xcconfig */,
+				D1B4404BDB1C7A5B29967061 /* Pods-Eco-Tourism.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +189,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7489FD4923D85147002C84A0 /* Build configuration list for PBXNativeTarget "Eco-Tourism" */;
 			buildPhases = (
+				7271F77F3DDD05F494C6DB1F /* [CP] Check Pods Manifest.lock */,
 				7489FD3123D85146002C84A0 /* Sources */,
 				7489FD3223D85146002C84A0 /* Frameworks */,
 				7489FD3323D85146002C84A0 /* Resources */,
@@ -125,36 +241,70 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7460A15E240FC4E200E15C45 /* Main.storyboard in Resources */,
 				7489FD4523D85147002C84A0 /* LaunchScreen.storyboard in Resources */,
 				7489FD4223D85147002C84A0 /* Assets.xcassets in Resources */,
-				7489FD4023D85146002C84A0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7271F77F3DDD05F494C6DB1F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Eco-Tourism-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7489FD3123D85146002C84A0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7489FD3D23D85146002C84A0 /* ViewController.swift in Sources */,
+				7489FD3D23D85146002C84A0 /* HomeViewController.swift in Sources */,
+				7460A160240FC6D300E15C45 /* HardCode.swift in Sources */,
+				74B6578F2414ECFE0026585A /* PhotoLibraryViewController.swift in Sources */,
+				74B657BA241655660026585A /* ImagePopOverController.swift in Sources */,
+				7460A14B240D102D00E15C45 /* WelcomeViewController.swift in Sources */,
+				74B657E0241B758D0026585A /* SettingsViewController.swift in Sources */,
+				74B657912414EFF10026585A /* PhotoCell.swift in Sources */,
+				7460A1722411A85200E15C45 /* NewsViewController.swift in Sources */,
+				7460A151240FBE8300E15C45 /* PlaceCell.swift in Sources */,
+				7460A15A240FC1FA00E15C45 /* Place.swift in Sources */,
+				7460A17024119F1C00E15C45 /* DetailViewController.swift in Sources */,
+				7460A14D240D995800E15C45 /* CustomTabBarController.swift in Sources */,
+				7460A15C240FC3F600E15C45 /* State.swift in Sources */,
+				7460A17824130C1100E15C45 /* PlaceDetailViewController.swift in Sources */,
 				7489FD3923D85146002C84A0 /* AppDelegate.swift in Sources */,
 				7489FD3B23D85146002C84A0 /* SceneDelegate.swift in Sources */,
+				74B657E2241B7C3E0026585A /* SettingsCell.swift in Sources */,
+				7460A1742411A8C600E15C45 /* NewsCell.swift in Sources */,
+				746AE3F1242A0E170041AF06 /* News.swift in Sources */,
+				7460A14F240FBE4900E15C45 /* StateCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7489FD3E23D85146002C84A0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7489FD3F23D85146002C84A0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7489FD4323D85147002C84A0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +432,7 @@
 		};
 		7489FD4A23D85147002C84A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD0A64C488C698C1715F36FC /* Pods-Eco-Tourism.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -294,12 +445,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.AppFactory.Eco-Tourism";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
 		7489FD4B23D85147002C84A0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1B4404BDB1C7A5B29967061 /* Pods-Eco-Tourism.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -312,7 +464,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.AppFactory.Eco-Tourism";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
